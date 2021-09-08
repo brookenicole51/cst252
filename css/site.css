@@ -1,0 +1,44 @@
+img {
+  width: 50%
+}
+
+p {
+  text-indent: 50px;
+}
+
+
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: slategray;
+    background-color: aliceblue;
+}
+
+main {
+    border: dashed 2px lightskyblue;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+    width: 95%;
+    margin: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+a:link {
+  color: slategray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: "Times New Roman", Times, serif;
+}
