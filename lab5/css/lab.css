@@ -1,0 +1,21 @@
+h1, h2 {
+  color: steelblue;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+p {
+  color: black;
+  font-weight: 800;
+}
+
+body {
+  color: black;
+  font-weight: 800;
+}
