@@ -19,3 +19,11 @@ body {
   color: black;
   font-weight: 800;
 }
+
+img {
+  width: 40%;
+  float: right;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  border: dashed 2px steelblue;
+}
