@@ -1,5 +1,6 @@
 p {
   text-indent: 50px;
+  text-align: center;
 }
 
 body {
@@ -22,11 +23,7 @@ main {
     background-color: #fff;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: "Times New Roman", Times, serif;
-}
-
-.newname {
-      float: right;
-      width: 500px;
+  text-align: center;
 }
