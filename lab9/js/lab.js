@@ -16,10 +16,19 @@ twoEl.id = "Element Two"
 
 //Change the button text to something
 oneEl.innerHTML = "This";
-oneEl.innerHTML = "That";
+twoEl.innerHTML = "That";
 
 //Change the color or background-color
-oneEl.style.backgroundcolor = "purple";
-twoEl.style.backgroundcolor = "purple";
+oneEl.style.backgroundColor = "blue";
+twoEl.style.backgroundColor = "blue";
 
 //Change other CSS attributes with your JavaScript
+oneEl.style.textAlign = "center";
+twoEl.style.textAlign = "center";
+oneEl.style.fontFamily = "helvetica";
+twoEl.style.fontFamily = "helvetica";
+oneEl.style.borderRadius = "10px";
+twoEl.style.borderRadius = "10px";
+oneEl.style.fontSize = "20px";
+twoEl.style.fontSize = "20px";
+oneEl.style.margin = "30px";
