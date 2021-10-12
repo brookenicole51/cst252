@@ -1,9 +1,11 @@
-$("#btn-red").click(function (){
-  $("#textbox1").removeClass("green-text");
-	$("#textbox1").toggleClass("red-text");
+$("#challenge-btn").click(function (){
+	$("#challenges").toggleClass("pinktext");
 });
 
-$("#btn-green").click(function (){
-	$("#textbox1").removeClass("red-text");
-	$("#textbox1").toggleClass("green-text");
+$("#problems-btn").click(function (){
+	$("#problems").toggleClass("big");
+});
+
+$("#results-btn").click(function (){
+	$("#results").toggleClass("highlight");
 });

@@ -1,17 +1,31 @@
-btn-green {
-  background-color: green;
+#challenge-btn {
+  background-color: lightblue;
   color: white;
 }
 
-#btn-red {
-  background-color: red;
+#problems-btn {
+  background-color: pink;
   color: white;
 }
 
-.green-text {
-  color: green;
+#results-btn {
+  background-color: lightgreen;
+  color: white;
 }
 
-.red-text {
-  color: red;
+.pinktext {
+  color: pink;
+}
+
+.big {
+  font-size: 70px;
+}
+
+.highlight {
+  background: lightyellow;
+  border: solid yellow;
+}
+
+#content {
+  text-align: center;
 }
