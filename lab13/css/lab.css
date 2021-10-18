@@ -1,0 +1,13 @@
+h2 {
+  color: maroon;
+  font-size: 35px;
+  font-style: oblique;
+}
+
+#hogwarts {
+  margin-left: 300px;
+  margin-right: 300px;
+  border: dashed 5px maroon;
+  background-color: goldenrod;
+  color: black;
+}
