@@ -1,0 +1,9 @@
+a:link {
+    color: slategray;
+    background-color: slategray;
+    text-decoration: none;
+}
+
+a {
+  padding: 10px;
+}
