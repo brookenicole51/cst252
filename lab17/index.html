@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 17 - Object-Oriented Design</title>
 	<script src="js/lab.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
@@ -9,13 +8,104 @@
 </head>
 <body>
 	<div id="content">
-			<h1>Lab 14 - Loops</h1>
+			<h1>Lab 17 - Object-Oriented Design</h1>
 			<h2>Challenges</h2>
 			<p></p>
 			<h2>Problems</h2>
 			<p></p>
 			<h2>Results</h2>
-			<p></p>
+			<p>Below are my results!</p>
 	</div>
+		<img src="img/kiasport.jpg" alt="kia" class="kia">
+	<div id="output">
+		Kia Sportage 2012 is black and this is the current car Brooke owns.
+		Bike cruiser 2000 is orange and this is the current bike Brooke owns.
+	</div>
+
+
+	<div id="hangman">
+	<h1>Hangman</h1>
+		<h3>Understand the Problem</h3>
+			<li>Player one selects a word</li>
+			<li>Player one draws the board</li>
+			<li>Player two guesses one letter at a time</li>
+			<li>For each correct guess all of those letters are added into the word</li>
+			<li>For each incorrect guess one piece is added to the hangman</li>
+			<li>Player two continues guesses until word is filled out or full body is drawn</li>
+
+		<h3>Pseudocode the High Level Approach</h3>
+			<div id="hangman">
+				<pre><code>
+Game setup
+Select a word
+Create the board
+Start the game loop
+Opposing player guesses letters
+Write correct letter in given space
+Letter incorrect
+Draw one part of figure
+If the game should end
+Display the proper victory
+Else
+Keep looping with new letters until phrase or
+figure completed
+				</pre></code>
+			</div>
+
+
+		<h3>Assign Actions to Objects</h3>
+		<div id="hangman">
+		<pre><code>
+Game setup [hangman]
+Select a word [player]
+Create the board [board]
+Start the game loop [hangman]
+Opposing player guesses letters [player]
+Write correct letter in given space [board]
+Letter incorrect [board]
+Draw one part of figure [player]
+If the game should end [hangman]
+Display the proper victory [board]
+Else
+Keep looping with new letters until phrase or figure completed [player]
+		</pre></code>
+		</div>
+
+
+		<h3>Make Javascript-ish Pseudocode</h3>
+		<div id="hangman">
+			<pre><code>
+// start
+// assign the starting player
+// starting player assigns word or phrase
+// draw board
+
+// play
+// guess letter
+// correct letters put on corresponding line
+// incorrect letters draw stick figure parts
+// repeat
+
+// game_over
+// victory
+// loss
+
+// victory
+// If board says phrase correctly
+// a victory_phrase
+// display a victory message
+
+// fail
+// If stick figure is completed
+// a loss_phrase
+// display a losing message
+					</pre></code>
+		</div>
+</div>
+<br>
+<br>
+<br>
+
+
 </body>
 </html>
