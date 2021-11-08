@@ -1,0 +1,11 @@
+.row {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-decoration: underline lightblue;
+}
+
+p {
+  font-size: 20px;
+  text-decoration: underline #fff;
+  margin: inherit;
+}
